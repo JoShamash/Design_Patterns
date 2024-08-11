@@ -1,0 +1,57 @@
++--------------------------------+
+|           Monster              |
++--------------------------------+
+| - hp: usd                      |
+| - mp: usd                      |
+| - attack: usd                  |
++--------------------------------+
+| + Monster(usd, usd, usd)       |
+| + ~Monster()                   |
++--------------------------------+
+              ^
+              |
+              |
++---------------------------+   +-----------------------------+   +----------------------------+
+|   M_Undead                |   |   M_Mechanic                |   |   M_Element                |
++---------------------------+   +-----------------------------+   +----------------------------+
+| + M_Undead(usd, usd, usd) |   | + M_Mechanic(usd, usd, usd) |   | + M_Element(usd, usd, usd) |
++---------------------------+   +-----------------------------+   +----------------------------+
+| + ~M_Undead()             |   | + ~M_Mechanic()             |   | + ~M_Element()             |
++---------------------------+   +-----------------------------+   +----------------------------+
+              ^
+              |
+              |
++--------------------------------+
+|           Builder              |
++--------------------------------+
+| - pMonster: Monster*           |
++--------------------------------+
+| + ~Builder()                   |
+| + loadTrunkModel(str: string)  |
+| + loadHeadModel(str: string)   |
+| + loadLimbsModel(str: string)  |
+| + getMonster(): Monster*       |
++--------------------------------+
+              ^
+              |
+              |
++--------------------+   +----------------------+   +---------------------+
+|   M_Undead_Builder |   |   M_Mechanic_Builder |   |   M_Element_Builder |
++--------------------+   +----------------------+   +---------------------+
+| + M_Undead_Builder |   | + M_Mechanic_Builder |   | + M_Element_Builder |
+| + loadTrunkModel   |   | + loadTrunkModel     |   | + loadTrunkModel    |
+| + loadHeadModel    |   | + loadHeadModel      |   | + loadHeadModel     |
+| + loadLimbsModel   |   | + loadLimbsModel     |   | + loadLimbsModel    |
++--------------------+   +----------------------+   +---------------------+
+              ^
+              |
+              |
++-------------------------------------+
+|   Builder_Director                  |
++-------------------------------------+
+| - pBuilder: Builder*                |
++-------------------------------------+
+| + Builder_Director(p: Builder*)     |
+| + setBuilder(p: Builder*)           |
+| + construct(str: string): Monster*  |
++-------------------------------------+

@@ -1,0 +1,25 @@
++--------------------------------+           +--------------------------------+
+|            Facade              |           |          Singleton<T>          |
++--------------------------------+           +--------------------------------+
+| - Facade()                     |           | - Singleton()                  |
+| - ~Facade()                    |           | - ~Singleton()                 |
+| + static Facade &getInstance() |           | + static T &getInstance()      |
+| + void LowConfComputer()       |           +--------------------------------+
+| + void HighConfComputer()      |                    ^
++--------------------------------+                    |
+| - class SingletonHolder        |                    |
+| + static Facade instance       |                    |
++--------------------------------+                    |
+        ^                                             |
+        |                                             |
+        |                                             |
++----------------------+---------------------+---------------------+
+|       graphic        |        sound        |      chatvoice      |
++----------------------+---------------------+---------------------+
+| - graphic()          | - sound()           | - chatvoice()       |
+| - ~graphic()         | - ~sound()          | - ~chatvoice()      |
+| + void display()     | + void bgsound()    | + void micvolume()  |
+| + void effect()      | + void envirsound() | + void micsens()    |
+| + void antialiasing()| + void expsound()   | + void chatvolume() |
+| + void resolution()  | + void setvolum()   |                     |
++----------------------+---------------------+---------------------+

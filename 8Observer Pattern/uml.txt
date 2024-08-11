@@ -1,0 +1,47 @@
++-----------------------------------------------------------+
+|                        <<interface>>                      |
+|                          Notifier                         |
++-----------------------------------------------------------+
+| +addToList(Profession*): void                             |
+| +removeFromList(Profession*): void                        |
+| +notify(Profession*, string): void                        |
++-----------------------------------------------------------+
+                              ^
+                              |
+                              |
++-----------------------------------------------------------+
+|                    FamilyTalk_Notifier                    |
++-----------------------------------------------------------+
+| -FamilyTalk_List: map<unsigned, list<Profession*>>        |
++-----------------------------------------------------------+
+| +addToList(Profession*): void                             |
+| +removeFromList(Profession*): void                        |
+| +notify(Profession*, string): void                        |
++-----------------------------------------------------------+
+                            ^   |
+                            |   |
+                            |   v
++-----------------------------------------------------------+
+|                         Profession                        |
++-----------------------------------------------------------+
+| -PlayerID: unsigned                                       |
+| -Name: string                                             |
+| -FamilyID: unsigned                                       |
++-----------------------------------------------------------+
+| +Profession(unsigned, string, unsigned = 0)               |
+| +getFamilyID() const: unsigned                            |
+| +getName() const: string                                  |
+| +setFamilyID(unsigned): void                              |
+| +sendMsg(Notifier*, const string&): void                  |
+| +acceptMsg(Profession*, const string&): void              |
+| ~Profession() = default                                   |
++-----------------------------------------------------------+
+                              ^
+                              |
+                              |
++----------------------------+   +----------------------------+   +----------------------------+
+|            Mage            |   |           Warrior          |   |           Priest           |
++----------------------------+   +----------------------------+   +----------------------------+
+| +Mage(unsigned, string,    |   | +Warrior(unsigned, string, |   | +Priest(unsigned, string,  |
+|   unsigned)                |   |   unsigned)                |   |   unsigned)                |
++----------------------------+   +----------------------------+   +----------------------------+

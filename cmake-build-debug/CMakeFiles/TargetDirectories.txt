@@ -1,0 +1,3 @@
+G:/2024WDcpp54/Design_Patterns/cmake-build-debug/CMakeFiles/program.dir
+G:/2024WDcpp54/Design_Patterns/cmake-build-debug/CMakeFiles/edit_cache.dir
+G:/2024WDcpp54/Design_Patterns/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,58 @@
++-------------------+
+| profession        |
++----------------------+
+| - usd hp             |
+| - usd mp             |
+| - usd physical_power |
+| - usd magic_power    |
+| - usd defense        |
++---------------------------------------+
+| profession(usd, usd, usd, usd, usd)   |
+| + ~profession()                       |
+| + void burn_skill()                   |
+| # virtual void effect_enemy() = 0     |
+| # virtual void effect_self() = 0      |
+| # virtual void effect_play() = 0      |
++---------------------------------------+
+          ^
+          |
+          |
++-------------------+
+|     priest        |
++-------------------+
+|                   |
++-----------------------------------+
+| + priest(usd, usd, usd, usd, usd) |
+| + ~priest()                       |
+| # void effect_enemy()             |
+| # void effect_self()              |
+| # void effect_play()              |
++-----------------------------------+
+          ^
+          |
+          |
++-------------------+
+|      mage         |
++-------------------+
+|                   |
++-----------------------------------+
+| + mage(usd, usd, usd, usd, usd)   |
+| + ~mage()                         |
+| # void effect_enemy()             |
+| # void effect_self()              |
+| # void effect_play()              |
++-----------------------------------+
+          ^
+          |
+          |
++-------------------+
+|     warrior       |
++-------------------+
+|                   |
++-----------------------------------+
+| + warrior(usd,, usd, usd, usd)    |
+| + ~warrior()                      |
+| # void effect_enemy()             |
+| # void effect_self()              |
+| # void effect_play()              |
++-----------------------------------+

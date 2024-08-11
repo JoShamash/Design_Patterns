@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>工作日报</title>
+    <style>
+        body {
+            font-family: 'Patrick Hand', cursive, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+            font-size: 21px; /* 增加字体大小 */
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-size: cover;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+        .header {
+            text-align: center;
+            border-bottom: 2px solid #000;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 29px; /* 增加字体大小 */
+            color: #000;
+        }
+        .header p {
+            margin: 5px 0;
+            font-size: 19px; /* 增加字体大小 */
+            color: #333;
+        }
+        .section {
+            margin-bottom: 20px;
+            padding: 10px;
+            border: 2px solid #000; /* 增加边框 */
+            border-radius: 15px; /* 可选：增加圆角 */
+        }
+        .section h2 {
+            font-size: 23px; /* 增加字体大小 */
+            border-bottom: 2px solid #000;
+            padding-bottom: 5px;
+            margin-bottom: 10px;
+            color: #000;
+        }
+        .section ul {
+            list-style-type: none;
+            padding: 0;
+			color: #666;
+        }
+		.section ul li::marker {
+			color: #666; /* 设置列表项标记的颜色 */
+		}
+        .section ul li {
+			margin: 5px 0;
+			padding: 10px;
+			border-left: 4px solid #99999999; /* 比黑色淡一点的颜色 */
+			border-radius: 4px;
+			background: transparent;
+			color: #333; /* 列表项颜色淡一些 */
+		}
+
+        .section ul li:nth-child(odd) {
+            background: transparent;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 20px;
+            color: #333;
+            font-size: 17px; /* 增加字体大小 */
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">

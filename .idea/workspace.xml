@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="CMakePresetLoader">{
+  &quot;useNewFormat&quot;: true
+}</component>
+  <component name="CMakeReloadState">
+    <option name="reloaded" value="true" />
+  </component>
+  <component name="CMakeRunConfigurationManager">
+    <generated>
+      <config projectName="FP" targetName="program" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4c44081f-0502-443a-b7de-0788f53716ad" name="更改" comment="810" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Design_Patterns" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectApplicationVersion">
+    <option name="ide" value="CLion" />
+    <option name="majorVersion" value="2023" />
+    <option name="minorVersion" value="3" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2kF2XuPArcGPTjyUwlAvPoSoeCa" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="sortByType" value="true" />
+    <option name="sortKey" value="BY_TYPE" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "CMake 应用程序.program.executor": "Run",
+    "CMake 应用程序.program1.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "G:/2024WDcpp54/Design_Patterns",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\2024WDcpp54\Design_Patterns\7Strategy Pattern" />
+      <recent name="G:\2024WDcpp54\Design_Patterns\5Prototype Pattern" />
+      <recent name="G:\2024WDcpp54\Design_Patterns\3.Polymorphic Factory" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\2024WDcpp54\Design_Patterns\6Builder Pattern\1" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="program" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="FP" TARGET_NAME="program" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="FP" RUN_TARGET_NAME="program">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="4c44081f-0502-443a-b7de-0788f53716ad" name="更改" comment="" />
+      <created>1722865047079</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1722865047079</updated>
+      <workItem from="1722865050051" duration="33000" />
+      <workItem from="1722865165284" duration="5426000" />
+      <workItem from="1722870938529" duration="817000" />
+      <workItem from="1722907458985" duration="3887000" />
+      <workItem from="1722921608615" duration="9660000" />
+      <workItem from="1722947229322" duration="1379000" />
+      <workItem from="1722957264380" duration="2688000" />
+      <workItem from="1722993963545" duration="1550000" />
+      <workItem from="1722998875102" duration="2477000" />
+      <workItem from="1723005499380" duration="12699000" />
+      <workItem from="1723033834024" duration="8045000" />
+      <workItem from="1723080725539" duration="18780000" />
+      <workItem from="1723117973021" duration="612000" />
+      <workItem from="1723119080307" duration="7725000" />
+      <workItem from="1723179202504" duration="12207000" />
+      <workItem from="1723206923460" duration="9448000" />
+      <workItem from="1723253902358" duration="3929000" />
+      <workItem from="1723295697871" duration="5841000" />
+      <workItem from="1723341450691" duration="2358000" />
+    </task>
+    <task id="LOCAL-00001" summary="810">
+      <option name="closed" value="true" />
+      <created>1723300867240</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1723300867240</updated>
+    </task>
+    <task id="LOCAL-00002" summary="810">
+      <option name="closed" value="true" />
+      <created>1723301000357</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1723301000357</updated>
+    </task>
+    <task id="LOCAL-00003" summary="810">
+      <option name="closed" value="true" />
+      <created>1723342473896</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1723342473896</updated>
+    </task>
+    <task id="LOCAL-00004" summary="810">
+      <option name="closed" value="true" />
+      <created>1723342793040</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1723342793040</updated>
+    </task>
+    <task id="LOCAL-00005" summary="810">
+      <option name="closed" value="true" />
+      <created>1723343160220</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1723343160220</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VCPKGProject">
+    <isAutomaticCheckingOnLaunch value="false" />
+    <isAutomaticFoundErrors value="true" />
+    <isAutomaticReloadCMake value="true" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="810" />
+    <option name="LAST_COMMIT_MESSAGE" value="810" />
+  </component>
+</project>

@@ -1,0 +1,48 @@
++------------------+
+|     Monster      |
++------------------+
+| - hp: usd        |
+| - mp: usd        |
+| - attack: usd    |
++---------------------------+
+| + Monster(hp, mp, attack) |
+| + ~Monster()              |
++---------------------------+
+           ^
+           |
++---------------------+     +----------------------+     +--------------------+
+|   M_Element_Swamp   |     |   M_Mechanic_Swamp   |     |   M_Undead_Swamp   |
++---------------------+     +----------------------+     +--------------------+
+| + M_Element_Swamp() |     | + M_Mechanic_Swamp() |     | + M_Undead_Swamp() |
++---------------------+     +----------------------+     +--------------------+
+           ^
+           |
++--------------------+     +---------------------+     +-------------------+
+|   M_Element_Town   |     |   M_Mechanic_Town   |     |   M_Undead_Town   |
++--------------------+     +---------------------+     +-------------------+
+| + M_Element_Town() |     | + M_Mechanic_Town() |     | + M_Undead_Town() |
++--------------------+     +---------------------+     +-------------------+
+           ^
+           |
++------------------------+     +-------------------------+     +-----------------------+
+|   M_Element_Mountain   |     |   M_Mechanic_Mountain   |     |   M_Undead_Mountain   |
++------------------------+     +-------------------------+     +-----------------------+
+| + M_Element_Mountain() |     | + M_Mechanic_Mountain() |     | + M_Undead_Mountain() |
++------------------------+     +-------------------------+     +-----------------------+
+
++------------------+
+|     Factory      |
++--------------------------------------+
+| + createMonster_Undead(): Monster*   |
+| + createMonster_Element(): Monster*  |
+| + createMonster_Mechanic(): Monster* |
++--------------------------------------+
+           ^
+           |
++----------------------------+  +----------------------------+  +----------------------------+
+|   Factory_Swamp            |  |   Factory_Town             |  |   Factory_Mountain         |
++----------------------------+  +----------------------------+  +----------------------------+
+| + createMonster_Undead()   |  | + createMonster_Undead()   |  | + createMonster_Undead()   |
+| + createMonster_Element()  |  | + createMonster_Element()  |  | + createMonster_Element()  |
+| + createMonster_Mechanic() |  | + createMonster_Mechanic() |  | + createMonster_Mechanic() |
++----------------------------+  +----------------------------+  +----------------------------+
